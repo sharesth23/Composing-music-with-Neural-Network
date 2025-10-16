@@ -1,1 +1,1 @@
-# Composing-Bach-Like-Music-with-Neural-Networks-in-Python-Tensorflow-
+# Composing-Bach-Like-Music-with-NN-

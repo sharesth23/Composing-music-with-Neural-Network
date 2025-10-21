@@ -31,6 +31,15 @@ Model learns patterns of musical notes, timing, and harmony to predict the next 
 | Visualization | `matplotlib`, `seaborn` |
 | Dataset | Bach MIDI Dataset (Kaggle) |
 
+
+---
+## 🧩 Pipeline Diagram
+flowchart TD
+    A[Bach MIDI Dataset 🎼] --> B[Preprocessing — Extract Notes 🎵]
+    B --> C[LSTM Neural Network 🧠]
+    C --> D[Predict Next Note Sequence 🔁]
+    D --> E[Generate MIDI File 🎧]
+    E --> F[Play AI-Composed Bach Music 🎹]
 ---
 
 ## 🗂️ Project Structure
@@ -61,3 +70,9 @@ ai-bach-composer/
 ├── requirements.txt
 ├── README.md                      # You are here 😄
 └── main.py                        # Runs preprocessing → training → generation
+
+
+
+
+
+

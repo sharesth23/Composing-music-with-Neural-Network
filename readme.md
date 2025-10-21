@@ -34,7 +34,7 @@ Model learns patterns of musical notes, timing, and harmony to predict the next 
 
 ---
 ## 🧩 Pipeline Diagram
-**flowchart TD
+    flowchart TD
     A[Bach MIDI Dataset 🎼] --> B[Preprocessing — Extract Notes 🎵]
     B --> C[LSTM Neural Network 🧠]
     C --> D[Predict Next Note Sequence 🔁]

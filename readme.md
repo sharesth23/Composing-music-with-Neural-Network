@@ -42,35 +42,6 @@ Model learns patterns of musical notes, timing, and harmony to predict the next 
     E --> F[Play AI-Composed Bach Music 🎹]
 ---
 
-## 🗂️ Project Structure
-
-```bash
-ai-bach-composer/
-│
-├── data/
-│   ├── bach_dataset/              # Raw MIDI files from Kaggle
-│   ├── processed_sequences.pkl    # Encoded training data
-│
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_model_training.ipynb
-│   ├── 03_music_generation.ipynb
-│
-├── src/
-│   ├── preprocess.py              # MIDI to sequence converter
-│   ├── model.py                   # LSTM-based model architecture
-│   ├── train.py                   # Model training pipeline
-│   ├── generate.py                # Generates new Bach-style music
-│
-├── results/
-│   ├── generated_sample.mid       # Example AI-composed melody
-│   ├── training_loss.png          # Loss graph
-│   ├── bach_generated.wav         # Converted audio output
-│
-├── requirements.txt
-├── README.md                      # You are here 😄
-└── main.py                        # Runs preprocessing → training → generation
-
 
 
 
